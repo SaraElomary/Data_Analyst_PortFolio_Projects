@@ -13,9 +13,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('/content/drive/My Drive/dataset.csv',delimiter=';')
-df.head(n=8)
-
+# import data
 df = pd.read_csv('/content/drive/My Drive/dataset.csv',delimiter=';')
 df.head(n=8)
 
